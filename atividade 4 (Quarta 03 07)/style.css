@@ -1,0 +1,100 @@
+body{
+    font-family: cursive;
+    background-image: linear-gradient(90deg,#784494, #9456b5, #9a58be, #9455b6, #784494);
+    background-size: 105% 105%;
+    animation: gradientAnimation 5s ease infinite;
+}
+
+@keyframes gradientAnimation{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#container{
+
+    height: 100%;
+
+}
+
+#topoTitulo{
+
+    height: 25%;
+
+}
+
+.womp{
+    display: flex;
+}
+
+#meioPerguntas{
+
+    height: 23%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+h2{
+    border: solid #ffffff;
+    background-color: #cac0ed;
+    font-size: xx-large;
+}
+
+span{
+    width: 30px;
+}
+
+p{
+    font-size: x-large;
+}
+
+#meioLabels{
+
+    height: 7%;
+
+}
+
+#meioSelects{
+
+    height: 27%;
+
+}
+
+#baixoResultado{
+
+    height: 18%;
+
+}
+
+#gapinicio{
+    width: 90px;
+}
+
+#AlinharEscolha{
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    font-size: 30px;
+    color: #ffffff;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5%;
+}
