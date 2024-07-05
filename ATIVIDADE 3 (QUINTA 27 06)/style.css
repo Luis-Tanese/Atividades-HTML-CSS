@@ -1,3 +1,4 @@
+
 body{
     background-image: url('https://i.pinimg.com/originals/72/bf/59/72bf59ea62411ac5f3265d07f886e6a6.gif');
     background-repeat: no-repeat;
@@ -27,30 +28,7 @@ body{
     position: relative;
     display: flex;
     align-items: center;
-    padding-left: 30px;
-    top: px;
-}
-  
-.title::before,.title::after {
-    position: absolute;
-    content: "";
-    height: 16px;
-    width: 16px;
-    border-radius: 50%;
-    left: 0px;
-    background-color: royalblue;
-}
-  
-.title::before {
-    width: 18px;
-    height: 18px;
-    background-color: royalblue;
-}
-  
-.title::after {
-    width: 18px;
-    height: 18px;
-    animation: pulse 1s linear infinite;
+    padding-left: 1px;
 }
   
 .message{
