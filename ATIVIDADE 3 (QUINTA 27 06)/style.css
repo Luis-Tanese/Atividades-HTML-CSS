@@ -17,7 +17,7 @@ body{
     left: 39%;
     background-image: linear-gradient(45deg, #94f3f3, #54a7f0, #7eeeee, #2db8b8);
     background-size: 400% 400%;
-    animation: gradientAnimation 15s ease infinite;
+    animation: gradientAnimation 10s ease infinite;
 }
   
 .title {
@@ -93,18 +93,6 @@ body{
   
 .submit:hover {
     background-color: rgb(56, 90, 194);
-}
-  
-@keyframes pulse {
-    from {
-      transform: scale(0.9);
-      opacity: 1;
-    }
-  
-    to {
-      transform: scale(1.8);
-      opacity: 0;
-    }
 }
 
 @keyframes gradientAnimation {
