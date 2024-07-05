@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form class="form">
+    <form class="form" id="registroForm">
         <p class="title">Registre-se</p>
         <p class="message">Registre-se agora para ter fotos de gatos diários</p>
             <div class="flex">
@@ -21,21 +21,20 @@
                 <span>Último Nome</span>
             </label>
         </div>  
-                
         <label>
             <input required="" placeholder="" type="email" class="input" id="email">
             <span>E-mail</span>
         </label> 
-            
         <label>
             <input required="" placeholder="" type="password" class="input" id="senha">
             <span>Senha</span>
         </label>
         <label>
             <input required="" placeholder="" type="password" class="input" id="confirmar">
-            <span>Confirmar Senha</span>
+            <span class="error">Confirmar Senha</span>
         </label>
         <button id="entrega" class="submit">Registrar-se</button>
     </form>
+    <script src="script.js"></script>
 </body>
 </html>
